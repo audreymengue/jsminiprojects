@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+#unique {
+    max-width: 400px;
+    border: 1px solid red;
+    height: 600px;
+    margin: 100px auto;
+}
+
+#colorchange {
+    display: block;
+    margin: 300px auto;
+}
