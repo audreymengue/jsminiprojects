@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    width: 700px;
+    border: 1px solid green;
+    position: fixed;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+#second-main {
+    margin: 0 auto; 
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: 
+  translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
