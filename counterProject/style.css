@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+#main-div {
+    background-color: green;
+    width: 500px;
+    height: 400px;
+    margin: 200px auto;
+    text-align: center;
+    border-radius: 5px;
+}
+
