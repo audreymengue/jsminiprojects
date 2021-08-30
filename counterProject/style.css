@@ -2,12 +2,39 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #FCF0C8;
+    font-family: sans-serif;
+}
+
+h1, #count {
+    color: #630A10;
+}
+
+#count {
+    font-size: 30px;
+}
+
+button {
+    background-color: #FACE7F;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 20px;
+    color: #630A10;
+    font-weight: bold;
+}
+
 #main-div {
-    background-color: green;
+    background-color: #FCF0C8;
     width: 500px;
     height: 400px;
     margin: 200px auto;
     text-align: center;
     border-radius: 5px;
+    border: 2px solid #fff;
 }
 
+#inner-main {
+    position: relative;
+    top: 100px;
+}
