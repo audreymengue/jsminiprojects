@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+#main-div {
+    margin: auto;
+}
+
+#inner-div {
+    /* text-align: center;
+    background-color: green;
+    width: 600px;
+    height: 500px; */
+    background-color: green;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
